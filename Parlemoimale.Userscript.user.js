@@ -17,4 +17,8 @@
     document.body.innerHTML = document.body.innerHTML.replace(/·e·/g, '<span aria-hidden="true">·e·</span>');
     document.body.innerHTML = document.body.innerHTML.replace(/n·e/g, 'n<span aria-hidden="true">·e</span>');
     document.body.innerHTML = document.body.innerHTML.replace(/·rice·/g, '<span aria-hidden="true">·rice·</span>');
+    document.body.innerHTML = document.body.innerHTML.replace(/·ve·/g, '<span aria-hidden="true">·ve·</span>');
+    document.body.innerHTML = document.body.innerHTML.replace(/·euse·/g, '<span aria-hidden="true">·euse·</span>');
+    document.body.innerHTML = document.body.innerHTML.replace(/·ne·/g, '<span aria-hidden="true">·ne·</span>');
+    document.body.innerHTML = document.body.innerHTML.replace(/·que·/g, '<span aria-hidden="true">·que·</span>');
 })();
